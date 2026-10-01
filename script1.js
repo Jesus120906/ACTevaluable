@@ -3,6 +3,7 @@ function gestion_compras(){
     let contador = 0;
     let gasto_total = 0;
     let gasto_medio = 0;
+    let gasto_mayor = 0;
     let gasto_menor = 0;
 
     do {
@@ -34,6 +35,7 @@ function gestion_compras(){
         contador++;
         gasto_total= gasto_total+compra;
         gasto_medio = gasto_total / contador;
+        // gasto_mayor = if(compra)
 
      } while(respuesta == false);
      
